@@ -1,0 +1,9 @@
+{
+  "welcome": "Bienvenido a PenPal Food",
+  "navbar": {
+    "home": "Inicio",
+    "products": "Productos",
+    "contact": "Contacto",
+    "language": "Idioma"
+  }
+}

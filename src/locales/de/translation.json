@@ -1,0 +1,9 @@
+{
+  "welcome": "Willkommen bei PenPal Food",
+  "navbar": {
+    "Blog": "Startseite",
+    "Currency Converter": "Produkte",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  }
+}

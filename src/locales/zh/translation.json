@@ -1,0 +1,9 @@
+{
+  "welcome": "欢迎来到PenPal Food",
+  "navbar": {
+    "home": "主页",
+    "products": "产品",
+    "contact": "联系",
+    "language": "语言"
+  }
+}
