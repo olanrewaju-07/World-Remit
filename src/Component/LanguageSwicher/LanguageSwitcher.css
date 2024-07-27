@@ -40,9 +40,10 @@
   display: block;
 }
 
-.btn-icon {
+.btnIcon {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }

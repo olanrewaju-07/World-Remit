@@ -17,18 +17,16 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div
-        className="navbar-left">
+      <div className="navbar-left">
         <img className="logo" src={assets.logo} alt="" />
         <hr />
         <LanguageSwitcher />
       </div>
       <div className="navbar-right">
         <div className="dropdown-blog">
-          <div className="btnIcon">
+          <div className="btnIcon" onClick={toggleDropdown}>
             <button
               className="dropbtn"
-              onClick={toggleDropdown}
               onMouseEnter={() => setHover(true)}
               onMouseLeave={() => setHover(false)}
             >
@@ -37,14 +35,14 @@ const Navbar = () => {
             <ArrowDropDownIcon className="icon" />
           </div>
           {isOpen && (
-          <div className="dropdown-blog-content">
-            <a href="#">All</a>
-            <a href="#">Comunity</a>
-            <a href="#">Finance</a>
-            <a href="#">Life Abroad</a>
-            <a href="#">Education</a>
-            <a href="#">Product</a>
-          </div>
+            <div className="dropdown-blog-content">
+              <a href="#">All</a>
+              <a href="#">Comunity</a>
+              <a href="#">Finance</a>
+              <a href="#">Life Abroad</a>
+              <a href="#">Education</a>
+              <a href="#">Product</a>
+            </div>
           )}
         </div>
         <a

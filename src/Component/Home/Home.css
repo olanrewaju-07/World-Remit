@@ -1,6 +1,6 @@
 .home {
   background: linear-gradient(90deg, rgb(129, 63, 214), rgb(209, 51, 179));
-  min-height: 120vh;
+  height: 750px;
   background-size: cover;
   background-position: center;
   display: grid;
@@ -28,13 +28,13 @@
 }
 .home-left h2{
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 500;
 }
 .home-left p{
   color: white;
   text-align:inherit;
-  font-size: 30px;
+  font-size: 27px;
 }
 .home-left button{
   padding: 15px 30px;
@@ -43,6 +43,7 @@
   color: #813fd6;
   font-weight: 700;
   font-size: 20px;
+  cursor: pointer;
 }
 .home-left img{
   cursor: pointer;
