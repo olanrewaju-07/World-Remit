@@ -41,6 +41,7 @@
   cursor: pointer;
   transition: border 0.3s ease;
   margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 .payment-option:last-child {

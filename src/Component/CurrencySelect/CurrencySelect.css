@@ -6,7 +6,9 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 30px 26px;
+  padding: 30px 10px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
   color: white;
   background-color: rgb(61, 17, 82);
 }

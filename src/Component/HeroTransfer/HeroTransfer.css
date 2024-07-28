@@ -1,0 +1,119 @@
+.hero-transfer {
+  margin: 100px 100px;
+}
+.hero-header-text{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hero-header-text h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.hero-header-text p {
+  font-size: 25.5px;
+}
+.arrow-icon {
+  color: #128387;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+ .arrow-icon .wide-arrow {
+  font-size: 35px;
+  display: inline-block;
+}
+.wide-arrow.selected:hover {
+  border: 3px solid  #813fd6;
+}
+
+.hero-payment-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+   transition: transform 0.5s ease-in-out;
+}
+ .hero-payment-card{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background:  #813fd6;
+  height: 280px;
+  width: 280px;
+  border-radius: 15px;
+ }
+ .hero-payment-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: white;
+  position: relative;
+  line-height: 1.5;
+ }
+ .hero-header-text h2{
+  font-weight: 300;
+ }
+ .hero-payment-text p{
+  font-size: 16px;
+  color: #ffff;
+ }
+ .hero-payment-card a {
+   color: #ffff;
+   text-decoration: none;
+   border:2px solid white;
+   display: inline-block;
+   position: relative;
+   align-items: center;
+   padding: 10px;
+   width: 120px;
+   margin-left: 15px;
+ }
+ .hero-payment-card a:hover {
+  color: #000;
+  border: 2px solid #000;
+ }
+
+ .hero-transfer-section2{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+    gap: 50px;
+ }
+ .section2-image {
+  position: relative;
+  height: 40rem;
+ }
+ .section2-image img{
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+ }
+ .section2-text{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+ }
+ .section2-text .section2-header{
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 500;
+ }
+  ol li {
+  font-size: 20px;
+  margin-left: 40px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+ }

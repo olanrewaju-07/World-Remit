@@ -5,7 +5,8 @@ import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 const PaymentMethod = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [selectedOption, setSelectedOption] = useState(null)
-  const toggleDown = () => {
+  const toggleDown = (event) => {
+      event.preventDefault();
     setIsOpen(!isOpen);
   }
     // Passing a dynamic class to each of dropdown option to give them border when clicked

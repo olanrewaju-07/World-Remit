@@ -36,20 +36,27 @@
   align-items: center;
   margin-top: 20px;
   width: fit-content;
-  margin-left: 35px;
+  margin-left: 34px;
   border: 2px solid #3D1152;
+  border-radius: 15px;
 }
 .form-container .form-input-select input::placeholder {
   color: #813FD6;
   font-size: 20px;
+  font-weight: 600;
 }
 .form-input-select:hover{
   border: 2px solid #3D1152;
 }
 .form-input-select input{
-  padding: 32px 22px;
+  padding: 32px 0px;
   outline: none;
   border: none;
+  color: #813FD6;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 15px;
+  padding-left: 20px;
 }
 .form-receive-method {
   display: flex;
