@@ -7,8 +7,9 @@ import twitter_icon from "./twitter_icon.png"
 import landing_page_icon from "./Landing_page_banner_6_image.png"
 import howreceive_icon from "./howreceiveSML.jpg"
 import howsend_icon from "./howsendSML.jpg"
-import logo from "./WorldRemit_Logo_Relaunch.png"
+import logo from "./WorldRemit_Logo_Relaunch.avif"
 import trust_logo from "./logo-white-trustpilot-copy.svg"
+import worldRemit_logo from "./logo.svg"
 
 
 import Austrialia from "./Austrilia.jpeg"
@@ -71,11 +72,12 @@ export const assets = {
   facebook_icon,
   linkedin_icon,
   twitter_icon,
+  logo,
   landing_page_icon,
   howreceive_icon,
   howsend_icon,
-  logo,
-  trust_logo
+  trust_logo,
+  worldRemit_logo
 };
 
 

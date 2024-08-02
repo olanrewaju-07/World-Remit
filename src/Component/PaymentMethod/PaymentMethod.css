@@ -23,7 +23,7 @@
   z-index: 1000;
   top: 100%;
   right: 0;
-  width: 100%; /* Adjust this as needed */
+  width: 100%; 
   overflow-y: auto;
   min-width: 370px;
   max-height: 300px;
@@ -41,6 +41,7 @@
   cursor: pointer;
   transition: border 0.3s ease;
   margin-left: 15px;
+  padding: 15px 20px;
   margin-bottom: 15px;
 }
 
@@ -73,7 +74,6 @@
 }
 .payment-option.selected{
     border: 3px solid  #813fd6;
-
 }
  .btn-icon{
   display: flex;

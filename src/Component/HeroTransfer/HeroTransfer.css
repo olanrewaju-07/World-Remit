@@ -75,15 +75,15 @@
    margin-left: 15px;
  }
  .hero-payment-card a:hover {
-  color: #000;
-  border: 2px solid #000;
+  color: #3D1152;
+  border: 2px solid #3D1152;
  }
 
  .hero-transfer-section2{
   margin-top: 100px;
   display: flex;
   flex-direction: row;
-    gap: 50px;
+  gap: 50px;
  }
  .section2-image {
   position: relative;
@@ -99,21 +99,23 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  min-height: 670px;
  }
  .section2-text{
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-top: 25px;
  }
  .section2-text .section2-header{
   font-size: 25px;
   line-height: 1.2;
   font-weight: 500;
+  margin-top: -70px;
  }
   ol li {
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 40px;
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
  }
+

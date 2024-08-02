@@ -1,0 +1,54 @@
+.currency-partner {
+  display: inline-block;
+  position: relative;
+}
+
+.partner-select-button {
+  background-color: transparent;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.partner-options {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 20px rgba(3,3,3,0.2);
+  z-index: 1000;
+  scrollbar-width: none;
+  top: 100%;
+  right: 0;
+  width: 80%; 
+  overflow-y: auto;
+  min-width: 400px;
+  border-radius: 10px;
+  height: 350px;
+}
+
+.partner-option-header {
+  color: #3D1152;
+  padding: 5px 20px;
+}
+
+.partner-option {
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  cursor: pointer;
+  transition: border 0.3s ease;
+  font-size: 17px;
+  color: #813fd6;
+  font-weight: 600;
+   margin-left: 35px;
+   margin-top: 15px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.partner-option.selected {
+  border: 3px solid #813fd6;
+  padding: 5px 10px;
+}
+

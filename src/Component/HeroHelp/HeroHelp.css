@@ -1,0 +1,47 @@
+.hero-help {
+   background: #813fd6;
+   margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.hero-help-text{
+  text-align: center;
+  color: white;
+  margin: 25px;
+}
+.hero-help-text h2{
+  font-size: 40px;
+}
+.hero-help-text p{
+  font-size: 15px;
+  margin-top: 25px;
+}
+.hero-help-img  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.hero-help-img img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.hero-help-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-help-link a{
+  text-decoration: none;
+  background-color: white;
+  padding: 20px 85px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.hero-help-link a:hover {
+  color: white;
+  background-color: #3D1152;
+}

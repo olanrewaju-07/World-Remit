@@ -1,0 +1,127 @@
+  .hero-country-content{
+  background: #813fd6;
+  }
+  .hero-country-text{
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+  }
+  .hero-country-text h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .hero-country-text{
+    color: white;
+    font-size: 20px;
+  }
+
+.hero-country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Add some space between items */
+  width: 80%;
+  align-items: center;
+  margin: 20px 160px;
+}
+
+.country-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: calc(33.33% - 20px); 
+  box-sizing: border-box;
+  background-color:rgba(68, 76, 76, 0.6);
+  padding: 15px;
+  max-height: 3.5rem;
+  max-width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.country-item:hover{
+  background: #3D1152;
+}
+.country-img-name {
+  display: flex;
+  align-items: center;
+}
+.country-img-name span {
+  color: white;
+  font-size: 20px;
+}
+
+
+.arrows-icon {
+  font-size: 35px;
+  color: white;
+}
+
+.country-flag {
+  width: 30px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}
+
+.country-name {
+  font-size: 16px; /* Adjust size as needed */
+}
+
+.button-container {
+  margin-top: 20px;
+
+}
+
+.toggle-button {
+  padding: 18px 40px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.toggle-button:hover {
+  color: #3D1152;
+  border: 2px solid #3D1152;
+}
+
+.hero-country-content2{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+}
+.hero-country-content2 .landing-image{
+  height: 85vh;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 60%;
+}
+.content-text h2{
+  font-size: 30px;
+  text-align: left;
+}
+.content-text p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+.content-image {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+.content-image img {
+    width: 9vw;
+    cursor: pointer;
+}
