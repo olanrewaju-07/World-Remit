@@ -12,9 +12,6 @@
   color: white;
   background-color: rgb(61, 17, 82);
 }
-/* .currency-select-header img {
-  margin-right: 8px;
-} */
 .currency-select-dropdown {
   display: block;
   position: absolute;
@@ -84,4 +81,11 @@
   height: 30px;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+@media (max-width:412px) {
+  .currency-select-header{
+    padding: 8px 0px;
+
+  }
 }

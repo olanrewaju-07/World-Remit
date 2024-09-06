@@ -3,7 +3,6 @@ import axios from 'axios';
 import "./CurrencyConverter.css"
 import CurrencySelect from '../CurrencySelect/CurrencySelect'
 import PaymentMethod from '../PaymentMethod/PaymentMethod';
-import CurrencyPartner from '../CurrencyPartner/CurrencyPartner';
 
 const CurrencyConverter = () => {
     const [selectedCurrency1, setSelectedCurrency1] = useState("GBP");
@@ -11,8 +10,6 @@ const CurrencyConverter = () => {
      const [amount, setAmount] = useState(""); // State for the amount to convert
      const [conversionRate, setConversionRate] = useState(1); // State for exchange rate
      const [convertedAmount, setConvertedAmount] = useState(""); 
-     const [isFormSubmited, setIsFormSubmited] = useState(false);
-     const [isCancelButtonVisible, setIsCancelButtonVisible] = useState(false);
 
     const handleCurrencyChange1 = (currencyCode) => {
       setSelectedCurrency1(currencyCode);
@@ -45,19 +42,9 @@ const CurrencyConverter = () => {
 
   const handleFormSubmited = (e) =>{
     e.preventDefault();
-    setIsFormSubmited(true);
-    setIsCancelButtonVisible(true); 
   }
 
-  const resetForm = () => {
-    setSelectedCurrency1("GBP");
-    setSelectedCurrency2("USD");
-    setAmount("");
-    setConversionRate(1);
-    setConvertedAmount("");
-    setIsFormSubmited(false);
-    setIsCancelButtonVisible(false);
-  };
+
 
 
 
@@ -93,20 +80,9 @@ const CurrencyConverter = () => {
           <p className="form-receive-title">Receive method</p>
           <PaymentMethod />
         </div>
-        {isFormSubmited && (
-          <div className="form-partner-select">
-            <p className="form-partner-title">Bank transfer partner</p>
-            <CurrencyPartner />
-          </div>
-        )}
         <button type="submit" className="btn-submit">
-          Continue
+          <a href="https://world-remit-app.vercel.app/">Continue</a>
         </button>
-        {isCancelButtonVisible && (
-          <button type="button" className="btn-cancel" onClick={resetForm}>
-            Cancel
-          </button>
-        )}
       </form>
     </div>
   );

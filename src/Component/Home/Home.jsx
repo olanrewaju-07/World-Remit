@@ -12,8 +12,10 @@ const Home = () => {
         <button>Send money</button>
         <div className="home-left-down-content">
           <img src={assets.trust_logo} alt="" />
+          <div className="line-link">
           <hr />
           <a href="">Great<br />82,565+ reviews</a>
+        </div>
         </div>
       </div>
       <div className="home-right">

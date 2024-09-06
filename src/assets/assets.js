@@ -10,6 +10,7 @@ import howsend_icon from "./howsendSML.jpg"
 import logo from "./WorldRemit_Logo_Relaunch.avif"
 import trust_logo from "./logo-white-trustpilot-copy.svg"
 import worldRemit_logo from "./logo.svg"
+import menu_icon from "./menu-icon.png"
 
 
 import Austrialia from "./Austrilia.jpeg"
@@ -77,7 +78,8 @@ export const assets = {
   howreceive_icon,
   howsend_icon,
   trust_logo,
-  worldRemit_logo
+  worldRemit_logo,
+  menu_icon
 };
 
 

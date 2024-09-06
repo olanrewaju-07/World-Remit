@@ -66,7 +66,7 @@
   justify-content: space-evenly;
   margin-top: 40px;
 }
- .btn-submit{
+ .btn-submit {
   padding: 15px 150px;
   background: #813fd6;
   margin-left: 30px;
@@ -78,6 +78,10 @@
   font-weight: 500;
   cursor: pointer;
   margin-bottom: 15px;
+}
+button a {
+  text-decoration: none;
+  color: white;
 }
 .btn-submit:hover{
   background: #3D1152;
@@ -92,23 +96,28 @@
 .form-partner-title {
   font-size: 13px;
 }
-.btn-cancel {
-   padding: 10px 40px;
-  background: transparent;
-  margin-left: 150px;
-  margin-top: 30px;
-  border: 2px solid #3D1152 ;
-  border-radius: 10px;
-  color: #813FD6;
-  font-size: 20px;
-  font-weight: 500;
-  cursor: pointer;
-  margin-bottom: 15px;
-  text-align: center;
-}
-.btn-cancel:hover {
-   color: white;
-   background: #3D1152;
-   border: none;
 
+
+@media (max-width:412px) {
+  .currency-converter {
+    margin: 0;
+  }
+  .form-container{
+  background: #f3f7f7;
+  border-radius: 10px; 
+  width: 50%;
+  min-width: 250px;
+  transition: height 0.3s ease;
+}
+.form-input-select input{
+ padding: 10px 0px;
+}
+.form-input-select{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  max-width: fit-content;
+}
+ 
 }
